@@ -152,9 +152,14 @@ Stores Voter IDs and fingerprint template references using SQLite.
 
 ## Author
 
-**Boda Karthikey Netha**
+**Boda Karthikey**
 
 GitHub: https://github.com/karthikey-boda
+
+**P Siddhu Anshith**
+
+GitHub: https://github.com/siddhuanshith
+
 
 ---
 
