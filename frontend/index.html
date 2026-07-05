@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fingerprint Identification System</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Fingerprint Identification System</h1>
+
+    <label>Voter ID</label>
+    <input
+        type="text"
+        id="voter_id"
+        placeholder="Enter Voter ID"
+    >
+
+    <br><br>
+
+    <label>Upload Fingerprint</label>
+    <input
+        type="file"
+        id="fingerprint"
+        accept="image/*"
+    >
+
+    <div class="preview-box">
+        <img id="preview" src="" alt="Preview">
+    </div>
+
+    <button id="uploadBtn" type="button">
+        Verify Fingerprint
+    </button>
+
+    <div id="result">
+        Waiting for fingerprint...
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
